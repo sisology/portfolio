@@ -1,0 +1,59 @@
+body {
+    background: #454447;
+}
+
+img {
+    object-fit: contain;
+}
+
+#mainNavbar {
+    font-family: "Source Code Pro", serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: rgba(69, 68, 71, 0.5);
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    margin-right: 0.75rem;
+    margin-top: 0.3rem;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #e3941D;
+}
+
+#mainNavbar .navbar-main {
+    width: 30px;
+    height: 30px;
+    background-color: #e3941D;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+
+.archiving {
+    justify-content: center;
+}
+
+.archiving img {
+    width: 8rem;
+}
+
+/**/
+.projectBox {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    border: 3px solid rgba(255, 255, 255, 30%);
+}
+
+.projectBox > div > h1 {
+    font-family: "Stick No Bills", "sans-serif";
+}
+
+.contect {
+    font-family: "Source Code Pro", "sans-serif";
+}
